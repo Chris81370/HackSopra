@@ -1,0 +1,140 @@
+header {
+	text-align: center;
+	color: aqua;
+}
+
+body {
+	background: url(img/fond_ecran.png) repeat-x;
+	background-attachment: fixed;
+	background-size: cover;
+	position: cover;
+	color: dark;
+	position: cover;
+}
+
+footer {
+	background-color: white;
+}
+
+#generalite {
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-right: 15px;
+	border-style: solid;
+	background-color: silver;
+	border-radius: 10px;
+	color: black;
+}
+
+#description {
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-right: 15px;
+	border-style: solid;
+	background-color: silver;
+	border-radius: 10px;
+	color: black;
+}
+
+#gravite {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-right: 15px;
+	height: auto;
+	width: 20%;
+	float: left;
+	font-style: italic;
+	border-color: red;
+	border-style: double;
+	border-radius: 10px;
+	background-color: silver;
+}
+
+#Logiciel {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 27px;
+	margin-bottom: 15px;
+	margin-left: 400px;
+	margin-right: 15px;
+	height: auto;
+	width: 20%;
+	font-style: italic;
+	border-color: blue;
+	border-style: double;
+	border-radius: 10px;
+	background-color: silver;
+}
+
+#ContreMesures {
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-right: 15px;
+	border-style: hidden;
+	border-radius: 10px;
+	background-color: silver;
+}
+
+#CM {
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	margin-right: 15px;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: silver;
+}
+
+#blue {
+	color: blue;
+}
+
+#red {
+	color: red;
+}
+
+#black {
+	color: back;
+}
+
+body {
+	background: url(img/fond_ecran.png) repeat-x;
+	background-attachment: fixed;
+	background-size: cover;
+	position: cover;
+	color: dark;
+	position: cover;
+}
+
+div, h2 {
+	color: aqua;
+}
