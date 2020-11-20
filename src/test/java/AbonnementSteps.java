@@ -19,18 +19,17 @@ public class AbonnementSteps {
 
 	}
 
-	@When("lutilisateur rempli le {string} , le {string}  et le {string} ")
+	@When("lutilisateur rempli {string} , {string} et {string}")
 	public void constructionAbonne(String nom, String prenom, String email) {
-
 		Abonne a = new Abonne(nom, prenom, email);
 		assertEquals("Yoyo", nom);
 		assertEquals("tata", prenom);
-		assertEquals("tatyoyo@gmail.com", email);
+		assertEquals("tatayoyo@gmail.com", email);
 	}
 
-	@Then("^the board should look like this:$")
-	public void theBoardShouldLookLikeThis(DataTable arg1) throws Throwable {
+	@Then("lutilisateur est ajoute")
+	public void theBoardShouldLookLikeThis() {
 
-		System.out.println("|");
+		System.out.println("Abonne cree");
 	}
 }
