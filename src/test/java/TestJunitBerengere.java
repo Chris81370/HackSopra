@@ -62,6 +62,7 @@ class TestJunitBerengere {
    abonne1.setPrenom("testUpdatePrenom");
    abonne1.setEmail("testUpdateEmail");
    abonne1.update();
+   //delete
    assertEquals("testUpdateNom", abonneTest.display().getLast().getNom());
    assertEquals("testUpdatePrenom", abonneTest.display().getLast().getPrenom());
    assertEquals("testUpdateEmail", abonneTest.display().getLast().getEmail());
