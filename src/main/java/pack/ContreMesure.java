@@ -1,6 +1,7 @@
 package pack;
 
 import java.sql.SQLException;
+import java.util.LinkedList;
 
 import javax.swing.JOptionPane;
 
@@ -154,5 +155,23 @@ public class ContreMesure {
 		pst.executeQuery();
 		ResultSet rsc = (ResultSet) pst.executeQuery();
 		return rsc;
+	}
+
+	public LinkedList<ContreMesure> display() throws SQLException {
+		// Variable Creation
+		LinkedList<ContreMesure> listeContreMesure = new LinkedList<ContreMesure>();
+		ResultSet rs = this.read();
+		// Parcour Base Donnes
+		while (rs.next()) {
+			ContreMesure c = new ContreMesure();
+			// Set Object Parameters
+			c.setIdV(rs.getInt("IdV"));
+			c.setDescription(rs.getString("description"));
+			c.setSources(rs.getString("sources"));
+			c.setTitre(rs.getString("titre"));
+			// Add object to the list
+			listeContreMesure.add(c);
+		}
+		return listeContreMesure;
 	}
 }
