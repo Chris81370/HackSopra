@@ -135,6 +135,7 @@ class TestJunitBerengere {
 	}
 
 	@Test
+	// A verifier
 	public void ListeAbonnes() {
 		Abonne.setListeAbonnes(listeAbonnes);
 		assertEquals("La liste est incorrecte", "listeAbonnes", Abonne.getListeAbonnes());
