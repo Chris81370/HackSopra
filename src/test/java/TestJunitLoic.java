@@ -73,9 +73,9 @@ public class TestJunitLoic {
 			admin1.authentifier();
 			assertEquals(identifiant, admin1.getIdentifiant());
 			assertEquals(mdp, admin1.getMdp());
-		
-		} finally {
-	}
+		} 
+		finally {
+		}
 	}
 }
 
