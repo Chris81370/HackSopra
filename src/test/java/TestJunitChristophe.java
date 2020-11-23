@@ -17,27 +17,27 @@ import pack.Vulnerabilite;
 
 class TestJunitChristophe {
 
-//	@Test
-//	void initialistationVaraibles() {
-//
-//		Abonne a = new Abonne();
-//		Abonne a1 = new Abonne("nom", "prenom", "email");
-//		Abonne am = new Abonne("email");
-//		ContreMesure c = new ContreMesure();
-//		ContreMesure c1 = new ContreMesure("description", "sources");
-//		ContreMesure c2 = new ContreMesure(1, "titre", "description", "sources");
-//
-//		Vulnerabilite v = new Vulnerabilite();
-//		Vulnerabilite v1 = new Vulnerabilite(1, "titre", "synthese", "description", "logiciels");
-//		Admin ad = new Admin();
-//		Admin ad1 = new Admin("ter", "ted");
-//		Admin ad2 = new Admin("1", "identifiant", "mdp");
-//
-//		ServletAbonne sa = new ServletAbonne();
-//		ServletAdmin sad = new ServletAdmin();
-//		ServletContreMesure scm = new ServletContreMesure();
-//		ServletDeconnexion sd = new ServletDeconnexion();
-//		ServletVulnerabilite sv = new ServletVulnerabilite();
-//	}
-	
+	@Test
+	void initialistationVariables() {
+
+		Abonne a = new Abonne();
+		Abonne a1 = new Abonne("nom", "prenom", "email");
+		Abonne am = new Abonne("email");
+		ContreMesure c = new ContreMesure();
+		ContreMesure c1 = new ContreMesure("description", "sources");
+		ContreMesure c2 = new ContreMesure(1, "titre", "description", "sources");
+
+		Vulnerabilite v = new Vulnerabilite();
+		Vulnerabilite v1 = new Vulnerabilite(1, "titre", "synthese", "description", "logiciels");
+		Admin ad = new Admin();
+		Admin ad1 = new Admin("ter", "ted");
+		Admin ad2 = new Admin("1", "identifiant", "mdp");
+
+		ServletAbonne sa = new ServletAbonne();
+		ServletAdmin sad = new ServletAdmin();
+		ServletContreMesure scm = new ServletContreMesure();
+		ServletDeconnexion sd = new ServletDeconnexion();
+		ServletVulnerabilite sv = new ServletVulnerabilite();
+	}
+
 }

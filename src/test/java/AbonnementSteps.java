@@ -10,6 +10,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pack.Abonne;
+import pack.Vulnerabilite;
 
 public class AbonnementSteps {
 
@@ -32,4 +33,28 @@ public class AbonnementSteps {
 
 		System.out.println("Abonne cree");
 	}
+
+	@Given("ladmin cree une vulnerabilite")
+	public void ladmin_cree_une_vulnerabilite() {
+		Vulnerabilite v = new Vulnerabilite();
+
+	}
+
+	@When("ladmin rempli {int}, {string}, {string}, {string}, {string}")
+	public void constructionAbonne(Integer gravite, String titre, String synthese, String description,
+			String logiciels) {
+		Vulnerabilite v = new Vulnerabilite(gravite, titre, synthese, description, logiciels);
+		assertEquals(1, gravite);
+		assertEquals("titre", titre);
+		assertEquals("synthese", synthese);
+		assertEquals("description", description);
+		assertEquals("logiciels", logiciels);
+	}
+
+	@Then("la vulnerabilite est ajoutee")
+	public void test() {
+
+		System.out.println("Vulnerabilite cree");
+	}
+
 }
