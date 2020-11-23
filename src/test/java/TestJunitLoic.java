@@ -4,7 +4,7 @@ import pack.*;
 
 
 public class TestJunitLoic {
-
+	//test
 	String identifiant;
 	String mdp;
 	String idAdm;
@@ -22,6 +22,7 @@ public class TestJunitLoic {
 		assertEquals("L'Identifiant est incorrect", "admin", Admin2.getIdentifiant());
 		assertEquals("Le mot de passe est incorrect", "admin", Admin2.getMdp());
 	}
+	
 	@Test
 	public void tearDown() throws Exception {
 	    admin1 = null;
